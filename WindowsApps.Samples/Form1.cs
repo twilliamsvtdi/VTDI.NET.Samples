@@ -21,5 +21,10 @@ namespace WindowsApps.Samples
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello Form 1");
+        }
     }
 }
